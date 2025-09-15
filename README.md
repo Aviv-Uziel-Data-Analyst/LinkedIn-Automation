@@ -15,5 +15,3 @@ Clay search lead run condition:
 Clay create lead run condition:
 !{{Search Lead}} && {{Company Name}} && {{LinkedIn Profile}}
 
-
-1. 
