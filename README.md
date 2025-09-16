@@ -1,4 +1,13 @@
 #  אוטומציה בלינקדאין - המדריך המלא
+
+<div dir="rtl" align="right">
+ 
+  <img src="https://img.shields.io/badge/Clay-brown">
+  <img src="https://img.shields.io/badge/LaGrowthMachine-purple">
+  <img src="https://img.shields.io/badge/LinkedIn-blue">
+  
+</div>
+
 **מדריך מלא לייצור לידים אוטומטי ויצירת קשר ממוקדת עם אנשי מפתח**
 
 ***
