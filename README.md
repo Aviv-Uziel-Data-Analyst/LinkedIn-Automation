@@ -1,169 +1,181 @@
-#  אוטומציה בלינקדאין - המדריך המלא
+# LinkedIn Automation - Complete Guide
 
-<div dir="rtl" align="right">
- 
+<div align="left">
   <img src="https://img.shields.io/badge/Clay-brown">
   <img src="https://img.shields.io/badge/LaGrowthMachine-purple">
   <img src="https://img.shields.io/badge/LinkedIn-blue">
-  
 </div>
 
-**מדריך מלא לייצור לידים אוטומטי ויצירת קשר ממוקדת עם אנשי מפתח**
+**Complete guide for automated lead generation and targeted outreach to key personnel**
 
 ***
 
-##  סקירת הפרויקט 🎯
+## Project Overview 🎯
 
-המדריך מדגים כיצד לבנות פייפליין אוטומטי ליצירת קשר בלינקדאין באמצעות **Clay.com** לייצור לידים חכם ו-**LaGrowthMachine (LGM)** להרצת קמפיינים אוטומטיים.
-המערכת פותחה כחלק מאסטרטגיית חיפוש עבודה מתקדמת, המשלבת מומחיות בניתוח נתונים עם פלטפורמות אוטומציה שיווקיות.
+This guide demonstrates how to build an automated LinkedIn outreach pipeline using **Clay.com** for smart lead generation and **LaGrowthMachine (LGM)** for running automated campaigns.
+The system was developed as part of an advanced job search strategy, combining data analysis expertise with marketing automation platforms.
 
+### Pipeline Structure 🔨
 
+The workflow follows this order: **[Clay.com](https://www.clay.com/) (Lead Generation) → [LaGrowthMachine (LGM)](https://lagrowthmachine.com/) (Automation) → LinkedIn (Manual Conversation)**
 
-###  מבנה ה-Pipeline 🔨
-בסדר הבא: **[Clay.com](https://www.clay.com/) (ייצור לידים) ← [LaGrowthMachine (LGM)](https://lagrowthmachine.com/) (אוטומציה) ← LinkedIn (המשך שיחה אנושי)**
+This is what the person on the other side sees:
+1. Connection request - *"Hi X, I saw you work at X, I would like to connect!"*
+2. When accepted - *"Hi X, how are you?"*
+3. No answer - Follow-up: *"?"*
+4. Person answers - Manual conversation
 
- תיקיות הפרויקט בנויות בשלבים, מ1 עד 5 ומכילות בתוכן צילומי מסך למי שיותר קל לו לעקוב בצורה ויזואלית.
-***
-## 📋 דרישות מוקדמות
-
-- חשבון **לינקדאין פעיל** - חובה כדי שאנשים יקחו אתכם ברצינות. ודאו שהפרופיל נראה טוב, עם תמונה, מקומות עבודה קודמים, ועוד. ממליץ מאוד לראות מדריכים על איך לבנות פרופיל משכנע.
-- חשבון **Clay.com** (אפשר להיכנס עם Gmail)
-- חשבון **LGM** (אפשר להיכנס עם Gmail)
-- הגדרת קהל יעד, ומשרות מפתח שתרצו לחפש
+Project folders are organized in stages from 1 to 5 and contain screenshots for those who prefer to follow visually.
 
 ***
 
-## 1️⃣ יצירת קהל יעד בLGM
-היכנסו לחשבון שלכם, ולאחר מכן נווטו בצד שמאל של האתר ל- Leads, ותלחצו על Create an empty audience
+## 📋 Prerequisites
 
-תנו ל"קהל" שלכם שם מתאים - למשל "Recruiters & HR"
-***
-## 2️⃣ הגדרת מפתח API ב- LGM
-
-הגדר את חיבור ה-API בין LGM לפלטפורמות חיצוניות. שלב זה חיוני לאפשר זרימת נתונים בין כלי ייצור הלידים לפלטפורמת האוטומציה.
-
-#### גישה להגדרות API
-לחצו על תמונת הפרופיל שלגם למטה בצד ימין. לאחר מכן לחצו על *Inegrations & API*, העתיקו את הקוד שנמצא שם, זה יאפשר אינטגרציה עם Clay.
-שמרו את המפתח הזה במקום נוח, אתם תצטרכו אותו תכף.
-
-
-**🔒 הערת אבטחה:** לעולם אל תשתף את מפתח ה-API שלך ושמור אותו במקום בטוח.
+- **Active LinkedIn account** - Essential for people to take you seriously. Ensure your profile looks good with a photo, previous work experience, and more. Highly recommend watching tutorials on building a compelling profile.
+- **Clay.com account** (can sign in with Gmail)
+- **LGM account** (can sign in with Gmail)
+- Define target audience and key positions you want to search for
 
 ***
 
-## 3️⃣ פלטפורמת Clay - קונפיגורציה וצעדים ראשונים
+## 1️⃣ Creating Target Audience in LGM
 
-פלטפורמת **Clay** תשמש כשכבת המודיעין, ימצא ויכשיר לידים לפני שליחתם לפלטפורמת האוטומציה.
+Log into your account, then navigate to the left side of the site to Leads and click on "Create an empty audience"
 
-#### יצירת workbook חדש ב-Clay
-התחילו ביצירת **Workbook** חדש ב-Clay, לייצור הלידים.
-לאחר מכן בחרו ב- **Find people** מבין האפשרויות בצד שמאל.
-זה מה שמגדיר לפלטפורמה איזה סוג נתונים לייבא לטבלה שלכם.
+Give your "audience" an appropriate name - for example "Recruiters & HR"
 
-### הגדרת מקורות נתונים
-כאן תוכלו לבחור כל מיני פילטרים שיעבדו **לפני** שהנתונים נכנסים לטבלה שלכם.
-#### -> ⚠ חשוב מאוד⚠
+***
 
-בתווית של *Location*, בתוך **Countries to include** תרשמו **Israel**
+## 2️⃣ Setting Up API Key in LGM
 
-אחרת הפלטפורמה תייבא אנשים מחו"ל (אלא אם כן זה המטרה שלכם)
+Configure the API connection between LGM and external platforms. This step is crucial for enabling data flow between lead generation tools and the automation platform.
 
-#### סוג משרה
-החלק הקריטי הנוסף הוא הפילטר בשם **Job Title**.
+### Accessing API Settings
 
-בחרו מה שרלוונטי עבורכם - ושימו לב - לכל **TItle** יש המון וריאציות אז תשקיעו זמן בלמצוא את כל השמות הנרדפים למשרה שאתם מחפשים.
-במקרה שלי השתמשתי בתפקידי דאטה, ומגייסים (Recruiters, Talent Aquisition, etc)
+Click on your profile picture at the bottom right. Then click on *Integrations & API*, copy the code found there - this will enable integration with Clay.
 
+Save this key in a convenient place, you'll need it shortly.
 
-#### פילטרים נוספים
-תוכלו להגדיר כל פילטר אחר שתרצו - לפי תעשייה, סניוריטי ועוד המון דברים - שוב לפי המטרה שלכם.
+**🔒 Security Note:** Never share your API key and keep it in a secure location.
 
-כשסיימתם להגדיר הכל לחצו על **Continue** ואז **Import to new table**
+***
+
+## 3️⃣ Clay Platform - Configuration and First Steps
+
+The **Clay** platform will serve as the intelligence layer, finding and preparing leads before sending them to the automation platform.
+
+### Creating a New Workbook in Clay
+
+Start by creating a new **Workbook** in Clay for lead generation.
+Then select **Find people** from the options on the left side.
+This defines what type of data the platform should import to your table.
+
+### Configuring Data Sources
+
+Here you can choose various filters that will work **before** the data enters your table.
+
+#### -> ⚠ Very Important ⚠
+
+In the *Location* tab, under **Countries to include** write **Israel**
+Otherwise the platform will import people from abroad (unless that's your goal)
+
+#### Job Type
+
+The other critical part is the filter called **Job Title**.
+Choose what's relevant for you - and note - each **Title** has many variations so invest time in finding all synonyms for the position you're looking for.
+In my case, I used data roles and recruiters (Recruiters, Talent Acquisition, etc)
+
+#### Additional Filters
+
+You can set any other filter you want - by industry, seniority and many other things - again according to your goal.
+When you finish configuring everything, click **Continue** and then **Import to new table**
 
 <br>
 
-## 4️⃣ פלטפורמת Clay -  הוספת פיצ'רים לטבלה (עמודות נוספות)
+## 4️⃣ Clay Platform - Adding Features to Table (Additional Columns)
 
+### The Unique ID Column
 
-#### עמודת ה- unqiue ID
-העמודה הראשונה שנוסיף היא id מיוחד לכל ליד.
-
-- נלחץ על **New Column**  ולאחר מכן **Formula**
-- נדביק את הנוסחא הבאה:
-~~~
+The first column we'll add is a unique ID for each lead.
+- Click **New Column** and then **Formula**
+- Paste the following formula:
+```
 Math.random().toString(36).slice(2)+Date.now().toString(36)
-~~~
-- נשנה את שם העמודה ל- **unique ID**
+```
+- Change the column name to **unique ID**
 
- #### עמודת שם פרטי בעברית
- העמודה הזאת מתרגמת את השם הפרטי של האדם כדי שנוכל לפנות אליו בצורה אמינה יותר
-- נלחץ על **New Column**  ולאחר מכן **Add enrichment**
-- נחפש **Google Translate** ונבחר אותו
-- בשדה **Enter Text** נבחר את העמודה **First Name** ש - Clay ייצר לנו, מתוכה נבחר את הטקסט עצמו.
-- נדאג להגדיר את הSource Language וה- Target Language לאנגלית ועברית בהתאמה.
-- נשנה את שם העמודה החדשה שיצרנו לשם הבא, חשוב מאוד שיהיה בדיוק השם הזה: **first_name_hebrew**
+### Hebrew First Name Column
 
-### העברת הלידים ל - LGM
-כעת ניצור 2 עמודות נוספות:
-- אחת לחיפוש לידים קיימים (במקרה של כפילות ושאיכשהו הליד כבר קיים ולכן לא צריך להעביר אותו שוב)
-- אחת ליצירת הליד והעברה ל - LGM
+This column translates the person's first name so we can address them more authentically
+- Click **New Column** and then **Add enrichment**
+- Search for **Google Translate** and select it
+- In the **Enter Text** field, select the **First Name** column that Clay created for us, from it select the text itself.
+- Make sure to configure the Source Language and Target Language to English and Hebrew respectively.
+- Change the name of the new column we created to this name, very important that it's exactly this name: **first_name_hebrew**
 
-#### עמודת Search Lead
-- נלחץ על **New Column**  ולאחר מכן **Add enrichment**
-- נחפש **"Search Lead** ונמצא את האחד של LGM
-- נכניס את מפתח ה - API ששמרנו מוקדם יותר
-- נוודא ש ה- **Lead Identifier** מראה **LinkedIn Profile**
-- בתוך **Only Run If** נכניס את הנוסחא הבאה:
-  
-~~~
+### Transferring Leads to LGM
+
+Now we'll create 2 additional columns:
+- One for searching existing leads (in case of duplicates and somehow the lead already exists so no need to transfer it again)
+- One for creating the lead and transferring to LGM
+
+### Search Lead Column
+
+- Click **New Column** and then **Add enrichment**
+- Search for **"Search Lead** and find the LGM one
+- Enter the API key we saved earlier
+- Make sure the **Lead Identifier** shows **LinkedIn Profile**
+- In **Only Run If** enter the following formula:
+```
 {{first_name_hebrew}}?.translation?.translatedText && {{LinkedIn Profile}}
-~~~
+```
+- Then click **Save & don't run**
 
-- לאחר מכן נלחץ על **Save & don't run**
+### Create or Update Lead Column
 
-#### עמודת Create or update lead
-- נלחץ על **New Column**  ולאחר מכן **Add enrichment**
-- נחפש **"Create or update Lead** ונמצא את האחד של LGM
-- בשדה **Audience** נבחר את הקהל שיצרנו ב-LGM
-- בשדה **Custom Attribute1** נזין את העמודה שיצרנו של ה- **unique id** (כדי להזין את העמודה לחצו על "/" ואז שם העמודה וזה ימצא אותה אוטומטית)
-- בשדה **Custom Attribute2** נזין את העמודה של השם הפרטי המתורגם - **first_name_hebrew**
-- בתוך **Only run if** הזינו את הנוסחא הבאה:
-  
-~~~
+- Click **New Column** and then **Add enrichment**
+- Search for **"Create or update Lead** and find the LGM one
+- In the **Audience** field, select the audience we created in LGM
+- In the **Custom Attribute1** field, enter the **unique id** column we created (to enter the column, click "/" then the column name and it will find it automatically)
+- In the **Custom Attribute2** field, enter the translated first name column - **first_name_hebrew**
+- In **Only run if** enter the following formula:
+```
 !{{Search Lead}} && {{Company Name}} && {{LinkedIn Profile}}
-~~~
+```
+- Then click **Save & don't run**
 
-- לאחר מכן נלחץ על **Save & don't run**
+### Running the Leads
 
-#### הפעלת הלידים
-- ⚠ כדי להפעיל את הווקרפלואו לחצו על החץ (חשוב מאוד - הפעילו את עמודת ה-**first_name_hebrew** בלבד!!)
-- ⚠ הוורקפלואו מריץ את העמודה שבחרתם ולאחר מכן משמאל לימין לפי הסדר, לכן גם לסדר העמודות יש חשיבות
-- הריצו ליד אחד בלבד לבדיקה, ואז תבדקו ב-LGM אם מסך ה- Leads שלכם התעדכן
-- ברגע שראיתם שעובד, אפשר להריץ על כמה שורות שרוצים, אני ממליץ להתחיל בקטן ולוודא שכל הוורקפלואו עובד לפני שמנסים במסה גדולה
+- ⚠ To activate the workflow, click the arrow (very important - activate only the **first_name_hebrew** column!!)
+- ⚠ The workflow runs the column you selected and then from left to right in order, so column order matters too
+- Run only one lead for testing, then check in LGM if your Leads screen has updated
+- Once you see it's working, you can run on as many rows as you want. I recommend starting small and making sure the entire workflow works before trying on a large scale
 
 ***
-## 5️⃣ יצירת קמפיין
-- צרו קמפיין חדש, אפשר עם איזו תבנית שבא לכם. אני הלכתי על **LinkedIn 2 Follow-ups** - פשוט ולא ספאמי. 
-- בחרו ב-**Audience** הרלוונטי
-- בתווית **Identity** הכניסו את הלינקדאין שלכם
-- לחצו על **Content** - כאן אתם יכולים להגדיר את ההודעה שלכם כדי שתראה אישית למרות שהיא תבנית.
-- אפשר להכניס איזה משתנים שאתם רוצים שקיימים אצל הלידים שלכם - מקום עבודה, טייטל, שם פרטי ומשפחה ולפעמים עוד.
-- זכרו! הגדרנו מראש ב - Clay משתנה בשם **first_name_hebrew**, בתוך LGM שמרנו אותו בתוך **customAttribute2** - ככה הוא מוצג בפלטפורמה
-- רשמו את התבנית שמרגישה לכם מתאימה. אני השתמשתי בתבנית הזאת: <br>
-*היי {{customAttribute2}}, {{companyName}} נראית לי סופר מעניינת, אשמח להתחבר :)*
 
--אפשר בתור התחלה להפעיל את האופציה **Add Manual Check** כדי לוודא שההודעות יוצאות טוב ושהלידים נבנים כמו שצריך. האופציה הזאת מאפשרת לכם לעבור על כל הודעה לפני שהיא נשלחת. ברגע שתכבו את זה כל ההודעות ישלחו ויצאו מהManual Check.
+## 5️⃣ Creating a Campaign
 
-### הודעת היכרות
-- ברגע שהגדרתם את ההודעת התחברות, אפשר לעבור להודעה שתישלח ברגע שהבן אדם אישר אתכם.
-- בשלב זה כבר הבנתם את הקטע. אתן לכם את ההודעה שאני בחרתי לשלוח כדי ליצור סקרנות: <br>
-*היי {{customAttribute2}}, מה שלומך?*
-- כמו כן יש עוד פולואפ במקרה שלא ענו (אחרי 5 ימים), אני בחרתי פשוט לשלוח: "?"
-- בכל אחד מהשלבים אפשר להוסיף Manual Check.
+- Create a new campaign, you can use any template you like. I went with **LinkedIn 2 Follow-ups** - simple and not spammy.
+- Choose the relevant **Audience**
+- In the **Identity** tab, enter your LinkedIn
+- Click **Content** - here you can configure your message to look personal despite being a template.
+- You can include any variables that exist for your leads - workplace, title, first and last name and sometimes more.
+- Remember! We configured in advance in Clay a variable called **first_name_hebrew**, within LGM we saved it in **customAttribute2** - that's how it appears in the platform
+- Write the template that feels right for you. I used this template: <br>
+*Hi {{customAttribute2}}, {{companyName}} looks super interesting to me, I'd love to connect :)*
+- You can initially activate the **Add Manual Check** option to make sure messages are sent well and leads are built correctly. This option allows you to review each message before it's sent. Once you turn this off, all messages will be sent and exit Manual Check.
 
-## ✨ וזהו! יש לכם קמפיין אוטומתי שירוץ בשבילכם! ✨
-אתם רק צריכים לעשות **Activate Campaign** כדי להתחיל להריץ אותו.
-הייתי מנטר את זה ביום יומיים הראשונים כדי לוודא שזה באמת עובד טוב, אבל מעבר לזה - אתם מסודרים!
+### Introduction Message
 
-אם נהניתם מהתוכן עקבו אחריי פה בגיטהאב ובלינקדאין :)
+- Once you've configured the connection message, you can move on to the message that will be sent once the person approves you.
+- At this stage you already understand the concept. I'll give you the message I chose to send to create curiosity: <br>
+*Hi {{customAttribute2}}, how are you?*
+- There's also another follow-up in case they didn't respond (after 5 days), I simply chose to send: "?"
+- In each stage you can add Manual Check.
 
+## ✨ That's it! You have an automated campaign that will run for you! ✨
+
+You just need to **Activate Campaign** to start running it.
+I would monitor it for the first day or two to make sure it's really working well, but beyond that - you're all set!
+
+If you enjoyed the content, follow me here on GitHub and on LinkedIn :)
