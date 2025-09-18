@@ -20,10 +20,10 @@ The system was developed as part of an advanced job search strategy, combining d
 The workflow follows this order: **[Clay.com](https://www.clay.com/) (Lead Generation) → [LaGrowthMachine (LGM)](https://lagrowthmachine.com/) (Automation) → LinkedIn (Manual Conversation)**
 
 This is what the person on the other side sees:
-1. Connection request - *"Hi X, I saw you work at X, I would like to connect!"*
-2. When accepted - *"Hi X, how are you?"*
-3. No answer - Follow-up: *"?"*
-4. Person answers - Manual conversation
+1. **Connection request** - *"Hi X, I saw you work at X, I would like to connect!"*
+2. **When accepted** - *"Hi X, how are you?"*
+3. **No answer** - Follow-up: *"?"*
+4. **Person answers** - Manual conversation
 
 Project folders are organized in stages from 1 to 5 and contain screenshots for those who prefer to follow visually.
 
